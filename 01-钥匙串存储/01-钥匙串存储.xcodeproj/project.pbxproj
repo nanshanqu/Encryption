@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A1693424485FB4007965BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1693324485FB4007965BF /* AppDelegate.m */; };
+		04A1693724485FB4007965BF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1693624485FB4007965BF /* SceneDelegate.m */; };
+		04A1693A24485FB4007965BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1693924485FB4007965BF /* ViewController.m */; };
+		04A1693D24485FB4007965BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A1693B24485FB4007965BF /* Main.storyboard */; };
+		04A1693F24485FB6007965BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A1693E24485FB6007965BF /* Assets.xcassets */; };
+		04A1694224485FB6007965BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A1694024485FB6007965BF /* LaunchScreen.storyboard */; };
+		04A1694524485FB6007965BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1694424485FB6007965BF /* main.m */; };
+		04A1694F24485FB6007965BF /* _1______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1694E24485FB6007965BF /* _1______Tests.m */; };
+		04A1695A24485FB6007965BF /* _1______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1695924485FB6007965BF /* _1______UITests.m */; };
+		04A1696A24485FD5007965BF /* ASEncryptionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1696924485FD5007965BF /* ASEncryptionManager.m */; };
+		DF8DDAA937189797FC2DAAB2 /* libPods-01-钥匙串存储.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBABB1BACE4095311C84C388 /* libPods-01-钥匙串存储.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A1694B24485FB6007965BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A1692724485FB4007965BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A1692E24485FB4007965BF;
+			remoteInfo = "01-钥匙串存储";
+		};
+		04A1695624485FB6007965BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A1692724485FB4007965BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A1692E24485FB4007965BF;
+			remoteInfo = "01-钥匙串存储";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A1692F24485FB4007965BF /* 01-钥匙串存储.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-钥匙串存储.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A1693224485FB4007965BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04A1693324485FB4007965BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04A1693524485FB4007965BF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		04A1693624485FB4007965BF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		04A1693824485FB4007965BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04A1693924485FB4007965BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04A1693C24485FB4007965BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A1693E24485FB6007965BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A1694124485FB6007965BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04A1694324485FB6007965BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A1694424485FB6007965BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A1694A24485FB6007965BF /* 01-钥匙串存储Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-钥匙串存储Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A1694E24485FB6007965BF /* _1______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1______Tests.m; sourceTree = "<group>"; };
+		04A1695024485FB6007965BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A1695524485FB6007965BF /* 01-钥匙串存储UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-钥匙串存储UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A1695924485FB6007965BF /* _1______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1______UITests.m; sourceTree = "<group>"; };
+		04A1695B24485FB6007965BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A1696824485FD5007965BF /* ASEncryptionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASEncryptionManager.h; sourceTree = "<group>"; };
+		04A1696924485FD5007965BF /* ASEncryptionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASEncryptionManager.m; sourceTree = "<group>"; };
+		5A56EF0DC46B401B58BF0BCD /* Pods-01-钥匙串存储.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-钥匙串存储.release.xcconfig"; path = "Target Support Files/Pods-01-钥匙串存储/Pods-01-钥匙串存储.release.xcconfig"; sourceTree = "<group>"; };
+		B6AF277A10B224F446D03E74 /* Pods-01-钥匙串存储.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-钥匙串存储.debug.xcconfig"; path = "Target Support Files/Pods-01-钥匙串存储/Pods-01-钥匙串存储.debug.xcconfig"; sourceTree = "<group>"; };
+		CBABB1BACE4095311C84C388 /* libPods-01-钥匙串存储.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-01-钥匙串存储.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A1692C24485FB4007965BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8DDAA937189797FC2DAAB2 /* libPods-01-钥匙串存储.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A1694724485FB6007965BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A1695224485FB6007965BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A1692624485FB4007965BF = {
+			isa = PBXGroup;
+			children = (
+				04A1693124485FB4007965BF /* 01-钥匙串存储 */,
+				04A1694D24485FB6007965BF /* 01-钥匙串存储Tests */,
+				04A1695824485FB6007965BF /* 01-钥匙串存储UITests */,
+				04A1693024485FB4007965BF /* Products */,
+				7833BFC39BDAB8A042246204 /* Pods */,
+				FF195DC0B7C8A6C45C98AF99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04A1693024485FB4007965BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A1692F24485FB4007965BF /* 01-钥匙串存储.app */,
+				04A1694A24485FB6007965BF /* 01-钥匙串存储Tests.xctest */,
+				04A1695524485FB6007965BF /* 01-钥匙串存储UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A1693124485FB4007965BF /* 01-钥匙串存储 */ = {
+			isa = PBXGroup;
+			children = (
+				04A1696724485FCE007965BF /* ASEncryptionManager */,
+				04A1693224485FB4007965BF /* AppDelegate.h */,
+				04A1693324485FB4007965BF /* AppDelegate.m */,
+				04A1693524485FB4007965BF /* SceneDelegate.h */,
+				04A1693624485FB4007965BF /* SceneDelegate.m */,
+				04A1693824485FB4007965BF /* ViewController.h */,
+				04A1693924485FB4007965BF /* ViewController.m */,
+				04A1693B24485FB4007965BF /* Main.storyboard */,
+				04A1693E24485FB6007965BF /* Assets.xcassets */,
+				04A1694024485FB6007965BF /* LaunchScreen.storyboard */,
+				04A1694324485FB6007965BF /* Info.plist */,
+				04A1694424485FB6007965BF /* main.m */,
+			);
+			path = "01-钥匙串存储";
+			sourceTree = "<group>";
+		};
+		04A1694D24485FB6007965BF /* 01-钥匙串存储Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04A1694E24485FB6007965BF /* _1______Tests.m */,
+				04A1695024485FB6007965BF /* Info.plist */,
+			);
+			path = "01-钥匙串存储Tests";
+			sourceTree = "<group>";
+		};
+		04A1695824485FB6007965BF /* 01-钥匙串存储UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04A1695924485FB6007965BF /* _1______UITests.m */,
+				04A1695B24485FB6007965BF /* Info.plist */,
+			);
+			path = "01-钥匙串存储UITests";
+			sourceTree = "<group>";
+		};
+		04A1696724485FCE007965BF /* ASEncryptionManager */ = {
+			isa = PBXGroup;
+			children = (
+				04A1696824485FD5007965BF /* ASEncryptionManager.h */,
+				04A1696924485FD5007965BF /* ASEncryptionManager.m */,
+			);
+			path = ASEncryptionManager;
+			sourceTree = "<group>";
+		};
+		7833BFC39BDAB8A042246204 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6AF277A10B224F446D03E74 /* Pods-01-钥匙串存储.debug.xcconfig */,
+				5A56EF0DC46B401B58BF0BCD /* Pods-01-钥匙串存储.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF195DC0B7C8A6C45C98AF99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBABB1BACE4095311C84C388 /* libPods-01-钥匙串存储.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A1692E24485FB4007965BF /* 01-钥匙串存储 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A1695E24485FB6007965BF /* Build configuration list for PBXNativeTarget "01-钥匙串存储" */;
+			buildPhases = (
+				18563194DECA90E894D2D066 /* [CP] Check Pods Manifest.lock */,
+				04A1692B24485FB4007965BF /* Sources */,
+				04A1692C24485FB4007965BF /* Frameworks */,
+				04A1692D24485FB4007965BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-钥匙串存储";
+			productName = "01-钥匙串存储";
+			productReference = 04A1692F24485FB4007965BF /* 01-钥匙串存储.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04A1694924485FB6007965BF /* 01-钥匙串存储Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A1696124485FB6007965BF /* Build configuration list for PBXNativeTarget "01-钥匙串存储Tests" */;
+			buildPhases = (
+				04A1694624485FB6007965BF /* Sources */,
+				04A1694724485FB6007965BF /* Frameworks */,
+				04A1694824485FB6007965BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A1694C24485FB6007965BF /* PBXTargetDependency */,
+			);
+			name = "01-钥匙串存储Tests";
+			productName = "01-钥匙串存储Tests";
+			productReference = 04A1694A24485FB6007965BF /* 01-钥匙串存储Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04A1695424485FB6007965BF /* 01-钥匙串存储UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A1696424485FB6007965BF /* Build configuration list for PBXNativeTarget "01-钥匙串存储UITests" */;
+			buildPhases = (
+				04A1695124485FB6007965BF /* Sources */,
+				04A1695224485FB6007965BF /* Frameworks */,
+				04A1695324485FB6007965BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A1695724485FB6007965BF /* PBXTargetDependency */,
+			);
+			name = "01-钥匙串存储UITests";
+			productName = "01-钥匙串存储UITests";
+			productReference = 04A1695524485FB6007965BF /* 01-钥匙串存储UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A1692724485FB4007965BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					04A1692E24485FB4007965BF = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					04A1694924485FB6007965BF = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 04A1692E24485FB4007965BF;
+					};
+					04A1695424485FB6007965BF = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 04A1692E24485FB4007965BF;
+					};
+				};
+			};
+			buildConfigurationList = 04A1692A24485FB4007965BF /* Build configuration list for PBXProject "01-钥匙串存储" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A1692624485FB4007965BF;
+			productRefGroup = 04A1693024485FB4007965BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A1692E24485FB4007965BF /* 01-钥匙串存储 */,
+				04A1694924485FB6007965BF /* 01-钥匙串存储Tests */,
+				04A1695424485FB6007965BF /* 01-钥匙串存储UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A1692D24485FB4007965BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1694224485FB6007965BF /* LaunchScreen.storyboard in Resources */,
+				04A1693F24485FB6007965BF /* Assets.xcassets in Resources */,
+				04A1693D24485FB4007965BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A1694824485FB6007965BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A1695324485FB6007965BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18563194DECA90E894D2D066 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-01-钥匙串存储-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A1692B24485FB4007965BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1693A24485FB4007965BF /* ViewController.m in Sources */,
+				04A1693424485FB4007965BF /* AppDelegate.m in Sources */,
+				04A1694524485FB6007965BF /* main.m in Sources */,
+				04A1693724485FB4007965BF /* SceneDelegate.m in Sources */,
+				04A1696A24485FD5007965BF /* ASEncryptionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A1694624485FB6007965BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1694F24485FB6007965BF /* _1______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A1695124485FB6007965BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1695A24485FB6007965BF /* _1______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A1694C24485FB6007965BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A1692E24485FB4007965BF /* 01-钥匙串存储 */;
+			targetProxy = 04A1694B24485FB6007965BF /* PBXContainerItemProxy */;
+		};
+		04A1695724485FB6007965BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A1692E24485FB4007965BF /* 01-钥匙串存储 */;
+			targetProxy = 04A1695624485FB6007965BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04A1693B24485FB4007965BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A1693C24485FB4007965BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04A1694024485FB6007965BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A1694124485FB6007965BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A1695C24485FB6007965BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04A1695D24485FB6007965BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A1695F24485FB6007965BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AF277A10B224F446D03E74 /* Pods-01-钥匙串存储.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = "01-钥匙串存储/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sz.andy.zl.-1------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A1696024485FB6007965BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A56EF0DC46B401B58BF0BCD /* Pods-01-钥匙串存储.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = "01-钥匙串存储/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sz.andy.zl.-1------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04A1696224485FB6007965BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = "01-钥匙串存储Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sz.andy.zl.-1------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-钥匙串存储.app/01-钥匙串存储";
+			};
+			name = Debug;
+		};
+		04A1696324485FB6007965BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = "01-钥匙串存储Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sz.andy.zl.-1------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01-钥匙串存储.app/01-钥匙串存储";
+			};
+			name = Release;
+		};
+		04A1696524485FB6007965BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = "01-钥匙串存储UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sz.andy.zl.-1------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "01-钥匙串存储";
+			};
+			name = Debug;
+		};
+		04A1696624485FB6007965BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVGBX5DTX9;
+				INFOPLIST_FILE = "01-钥匙串存储UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sz.andy.zl.-1------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "01-钥匙串存储";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A1692A24485FB4007965BF /* Build configuration list for PBXProject "01-钥匙串存储" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A1695C24485FB6007965BF /* Debug */,
+				04A1695D24485FB6007965BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A1695E24485FB6007965BF /* Build configuration list for PBXNativeTarget "01-钥匙串存储" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A1695F24485FB6007965BF /* Debug */,
+				04A1696024485FB6007965BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A1696124485FB6007965BF /* Build configuration list for PBXNativeTarget "01-钥匙串存储Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A1696224485FB6007965BF /* Debug */,
+				04A1696324485FB6007965BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A1696424485FB6007965BF /* Build configuration list for PBXNativeTarget "01-钥匙串存储UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A1696524485FB6007965BF /* Debug */,
+				04A1696624485FB6007965BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A1692724485FB4007965BF /* Project object */;
+}
